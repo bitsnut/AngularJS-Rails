@@ -1,10 +1,10 @@
 ##Angular와 Rails를 이용한 프론트 엔드 앱개발을 시작해보자!##
 ---  
 
-AngularJS+Rails는 AngularJS의 매력을 탐구하도록 도와주는 책이다.  
-약 100페이지 이상의 예제가 튜토리얼 형식으로 소개되어있다. 
-즉 좋지않은, 불필요한 API 문서 따위는 버렸다.  
-다시말해서, 이 책은 AngularJS와 Rails로 가장 빠르게 프로덕션 방식으로 배울 수 있는 길이다.  
+#####AngularJS+Rails는 AngularJS의 매력을 탐구하도록 도와주는 책이다.  
+#####약 100페이지 이상의 예제가 튜토리얼 형식으로 소개되어있다. 
+#####즉 좋지않은, 불필요한 API 문서 따위는 버렸다.  
+#####다시말해서, 이 책은 AngularJS와 Rails로 가장 빠르게 프로덕션 방식으로 배울 수 있는 길이다.  
 <br>
 
 ##목차##
@@ -82,7 +82,7 @@ AngularJS+Rails는 AngularJS의 매력을 탐구하도록 도와주는 책이다
   17.4 Angular로 로그아웃  
   17.5 Angular로 로그인   
 ####18 Heroku에 올리기  
-   18.1 AngularJS 의존성주입 & 더러운코드
+   18.1 AngularJS 의존성주입 & 더러운코드  
    18.2 Turn mangle off  
    18.3 Specify the dependency using AngularJS  
 ####19 Reduce HTTP Calls  

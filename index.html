@@ -1,4 +1,10 @@
-<html><head><style id="style">h1,
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<style>
+h1,
 h2,
 h3,
 h4,
@@ -144,67 +150,75 @@ sup {
 	table, pre {
 		page-break-inside: avoid;
 	}
-}</style></head><body><div id="markdown"><h2>Angular와 Rails를 이용한 프론트 엔드 앱개발을 시작해보자!</h2>
+}
+</style>
+<title>Angular와 Rails를 이용한 프론트 엔드 앱개발을 시작해보자!</title>
 
-<hr>
+</head>
+<body>
+<h2>Angular와 Rails를 이용한 프론트 엔드 앱개발을 시작해보자!</h2>
 
-<p>AngularJS+Rails는 AngularJS의 매력을 탐구하도록 도와주는 책이다.<br>
-약 100페이지 이상의 예제가 튜토리얼 형식으로 소개되어있다.
-즉 좋지않은, 불필요한 API 문서 따위는 버렸다.<br>
-다시말해서, 이 책은 AngularJS와 Rails로 가장 빠르게 프로덕션 방식으로 배울 수 있는 길이다.</p>
+<hr />
 
-<br>
+<h5>AngularJS+Rails는 AngularJS의 매력을 탐구하도록 도와주는 책이다.</h5>
 
+<h5>약 100페이지 이상의 예제가 튜토리얼 형식으로 소개되어있다.</h5>
+
+<h5>즉 좋지않은, 불필요한 API 문서 따위는 버렸다.</h5>
+
+<h5>다시말해서, 이 책은 AngularJS와 Rails로 가장 빠르게 프로덕션 방식으로 배울 수 있는 길이다.</h5>
+
+<p><br></p>
 
 <h2>목차</h2>
 
 <h4>1 소개</h4>
 
-<p> 1.1 이 가이드는 이런것이다<br>
+<p> 1.1 이 가이드는 이런것이다<br/>
  1.2 이 가이드는 이런것이 아니다</p>
 
 <h4>2 AngularJS + Rails 조합 = AngulaRails</h4>
 
 <h4>3 왜 Angular 인가?</h4>
 
-<p>  3.1 장점: 더나은 점들<br>
+<p>  3.1 장점: 더나은 점들<br/>
   3.2 단점: 제기된 단점들</p>
 
 <h4>4 안녕 AngularJS</h4>
 
-<p> 4.1 Rails 앱 생성하기<br>
- 4.2 안녕 AngularJS<br>
+<p> 4.1 Rails 앱 생성하기<br/>
+ 4.2 안녕 AngularJS<br/>
  4.3 AngularJS 앱과 컨트롤러 사용하기</p>
 
 <h4>5 AngularJS로 폼 다루기</h4>
 
-<p> 5.1 셀렉트 다루기<br>
- 5.2 체크박스 다루기<br>
+<p> 5.1 셀렉트 다루기<br/>
+ 5.2 체크박스 다루기<br/>
  5.3 라디오 버튼 다루기</p>
 
 <h4>6 모델 다루기</h4>
 
-<p> 6.1 위험한 바인딩<br>
+<p> 6.1 위험한 바인딩<br/>
  6.2 올바른 바인딩</p>
 
 <h4>7 Rails폼을 AngularJS 검증으로 확장하기</h4>
 
-<p>  7.1 AngularJS으로 HTML5 폼 검증하기<br>
+<p>  7.1 AngularJS으로 HTML5 폼 검증하기<br/>
   7.2 AngularJS 검증 사용하기
-8 AngularJS와 HTTP<br>
-  8.1 $http와 GET요청<br>
-  8.2 로딩중 spinner 추가하기 <br>
-  8.3 에러 다루기 <br>
+8 AngularJS와 HTTP<br/>
+  8.1 $http와 GET요청<br/>
+  8.2 로딩중 spinner 추가하기 <br/>
+  8.3 에러 다루기 <br/>
   8.4 jQuery 써보기</p>
 
 <h4>9 Rails에게 대화해보기</h4>
 
-<p>  9.1 Rails를 위한 HTTP 헤더 기본값  <br>
-  9.2 GET /books  <br>
-  9.3 Url 전송  <br>
-  9.4 Rails데이터 AngularJS로 보내기  <br>
-  9.5 POST /books  <br>
-  9.6 DELETE /books/:id  <br>
+<p>  9.1 Rails를 위한 HTTP 헤더 기본값  <br/>
+  9.2 GET /books  <br/>
+  9.3 Url 전송  <br/>
+  9.4 Rails데이터 AngularJS로 보내기  <br/>
+  9.5 POST /books  <br/>
+  9.6 DELETE /books/:id  <br/>
   9.7 PUT /books/:id</p>
 
 <h4>10 서비스  10.1 커스텀 서비스 만들기</h4>
@@ -213,24 +227,24 @@ sup {
 
 <h4>11 Rails와 ng-resource</h4>
 
-<p>  11.1 ngResource 추가<br>
-  11.2 GET /books<br>
-  11.3 Book Resource<br>
-  11.4 프로미스<br>
-  11.5 책 추가하기<br>
-  11.6 책 수정하기<br>
+<p>  11.1 ngResource 추가<br/>
+  11.2 GET /books<br/>
+  11.3 Book Resource<br/>
+  11.4 프로미스<br/>
+  11.5 책 추가하기<br/>
+  11.6 책 수정하기<br/>
   11.7 책 삭제하기</p>
 
 <h4>12 AngularJS와 Rails로 페이지화하기</h4>
 
-<p>  12.1 페이지 더하기<br>
-  12.2 앞으로, 뒤로 페이지<br>
+<p>  12.1 페이지 더하기<br/>
+  12.2 앞으로, 뒤로 페이지<br/>
   12.3 페이지 이동하기</p>
 
 <h4>13 디렉티브</h4>
 
-<p>  13.1 디렉티브 만들기<br>
-  13.2 템플릿 그 이상<br>
+<p>  13.1 디렉티브 만들기<br/>
+  13.2 템플릿 그 이상<br/>
   13.3 디렉티브에 바인드하기</p>
 
 <h4>14 이미지 아바타 디렉티브</h4>
@@ -239,35 +253,37 @@ sup {
 
 <h4>15 라우팅</h4>
 
-<p>  15.1 ngRoute 설정<br>
-  15.2 Root 라우트 설정<br>
-  15.3 기본 라우트 설정<br>
-  15.4 상세페이지<br>
+<p>  15.1 ngRoute 설정<br/>
+  15.2 Root 라우트 설정<br/>
+  15.3 기본 라우트 설정<br/>
+  15.4 상세페이지<br/>
   15.5 프로미스로 라우팅 (추후 해결됨)</p>
 
 <h4>16 UI 라우터</h4>
 
-<p>  16.1 ui-router 설치하기<br>
-  16.2 Root 라우트 설정  <br>
-  16.3 Crew 라우트<br>
+<p>  16.1 ui-router 설치하기<br/>
+  16.2 Root 라우트 설정  <br/>
+  16.3 Crew 라우트<br/>
   16.4 프로미스</p>
 
 <h4>17 Devise 인증</h4>
 
-<p>  17.1 AngularJS를 이용한 보안<br>
-  17.2 Rails로 로그인<br>
-  17.3 Rails로 로그아웃  <br>
-  17.4 Angular로 로그아웃<br>
+<p>  17.1 AngularJS를 이용한 보안<br/>
+  17.2 Rails로 로그인<br/>
+  17.3 Rails로 로그아웃  <br/>
+  17.4 Angular로 로그아웃<br/>
   17.5 Angular로 로그인</p>
 
 <h4>18 Heroku에 올리기</h4>
 
-<p>   18.1 AngularJS 의존성주입 &amp; 더러운코드
-   18.2 Turn mangle off<br>
+<p>   18.1 AngularJS 의존성주입 &amp; 더러운코드<br/>
+   18.2 Turn mangle off<br/>
    18.3 Specify the dependency using AngularJS</p>
 
 <h4>19 Reduce HTTP Calls</h4>
 
-<p>  19.1 Preload JSON with AngularJS<br>
-  19.2 Preload Templates with Rails Asset Pipeline<br>
-  20 Appendix 1 : JSON Models are good enough</p></div></body></html>
+<p>  19.1 Preload JSON with AngularJS<br/>
+  19.2 Preload Templates with Rails Asset Pipeline<br/>
+  20 Appendix 1 : JSON Models are good enough</p>
+</body>
+</html>
